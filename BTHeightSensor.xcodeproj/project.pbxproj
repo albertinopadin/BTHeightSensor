@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE2BF7B170FF7D900C636EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2BF7A170FF7D900C636EC /* UIKit.framework */; };
+		CEE2BF7D170FF7D900C636EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2BF7C170FF7D900C636EC /* Foundation.framework */; };
+		CEE2BF7F170FF7D900C636EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2BF7E170FF7D900C636EC /* CoreGraphics.framework */; };
+		CEE2BF85170FF7D900C636EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BF83170FF7D900C636EC /* InfoPlist.strings */; };
+		CEE2BF87170FF7D900C636EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2BF86170FF7D900C636EC /* main.m */; };
+		CEE2BF8B170FF7D900C636EC /* BTHSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2BF8A170FF7D900C636EC /* BTHSAppDelegate.m */; };
+		CEE2BF8D170FF7D900C636EC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BF8C170FF7D900C636EC /* Default.png */; };
+		CEE2BF8F170FF7D900C636EC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BF8E170FF7D900C636EC /* Default@2x.png */; };
+		CEE2BF91170FF7D900C636EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BF90170FF7D900C636EC /* Default-568h@2x.png */; };
+		CEE2BF94170FF7D900C636EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BF92170FF7D900C636EC /* MainStoryboard.storyboard */; };
+		CEE2BF97170FF7D900C636EC /* BTHSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2BF96170FF7D900C636EC /* BTHSViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEE2BF77170FF7D900C636EC /* BTHeightSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTHeightSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE2BF7A170FF7D900C636EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEE2BF7C170FF7D900C636EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE2BF7E170FF7D900C636EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEE2BF82170FF7D900C636EC /* BTHeightSensor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTHeightSensor-Info.plist"; sourceTree = "<group>"; };
+		CEE2BF84170FF7D900C636EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE2BF86170FF7D900C636EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE2BF88170FF7D900C636EC /* BTHeightSensor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTHeightSensor-Prefix.pch"; sourceTree = "<group>"; };
+		CEE2BF89170FF7D900C636EC /* BTHSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTHSAppDelegate.h; sourceTree = "<group>"; };
+		CEE2BF8A170FF7D900C636EC /* BTHSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTHSAppDelegate.m; sourceTree = "<group>"; };
+		CEE2BF8C170FF7D900C636EC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CEE2BF8E170FF7D900C636EC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CEE2BF90170FF7D900C636EC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEE2BF93170FF7D900C636EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CEE2BF95170FF7D900C636EC /* BTHSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTHSViewController.h; sourceTree = "<group>"; };
+		CEE2BF96170FF7D900C636EC /* BTHSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTHSViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE2BF74170FF7D900C636EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2BF7B170FF7D900C636EC /* UIKit.framework in Frameworks */,
+				CEE2BF7D170FF7D900C636EC /* Foundation.framework in Frameworks */,
+				CEE2BF7F170FF7D900C636EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE2BF6E170FF7D800C636EC = {
+			isa = PBXGroup;
+			children = (
+				CEE2BF80170FF7D900C636EC /* BTHeightSensor */,
+				CEE2BF79170FF7D900C636EC /* Frameworks */,
+				CEE2BF78170FF7D900C636EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE2BF78170FF7D900C636EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2BF77170FF7D900C636EC /* BTHeightSensor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE2BF79170FF7D900C636EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2BF7A170FF7D900C636EC /* UIKit.framework */,
+				CEE2BF7C170FF7D900C636EC /* Foundation.framework */,
+				CEE2BF7E170FF7D900C636EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE2BF80170FF7D900C636EC /* BTHeightSensor */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2BF89170FF7D900C636EC /* BTHSAppDelegate.h */,
+				CEE2BF8A170FF7D900C636EC /* BTHSAppDelegate.m */,
+				CEE2BF92170FF7D900C636EC /* MainStoryboard.storyboard */,
+				CEE2BF95170FF7D900C636EC /* BTHSViewController.h */,
+				CEE2BF96170FF7D900C636EC /* BTHSViewController.m */,
+				CEE2BF81170FF7D900C636EC /* Supporting Files */,
+			);
+			path = BTHeightSensor;
+			sourceTree = "<group>";
+		};
+		CEE2BF81170FF7D900C636EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2BF82170FF7D900C636EC /* BTHeightSensor-Info.plist */,
+				CEE2BF83170FF7D900C636EC /* InfoPlist.strings */,
+				CEE2BF86170FF7D900C636EC /* main.m */,
+				CEE2BF88170FF7D900C636EC /* BTHeightSensor-Prefix.pch */,
+				CEE2BF8C170FF7D900C636EC /* Default.png */,
+				CEE2BF8E170FF7D900C636EC /* Default@2x.png */,
+				CEE2BF90170FF7D900C636EC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE2BF76170FF7D900C636EC /* BTHeightSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE2BF9A170FF7D900C636EC /* Build configuration list for PBXNativeTarget "BTHeightSensor" */;
+			buildPhases = (
+				CEE2BF73170FF7D900C636EC /* Sources */,
+				CEE2BF74170FF7D900C636EC /* Frameworks */,
+				CEE2BF75170FF7D900C636EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTHeightSensor;
+			productName = BTHeightSensor;
+			productReference = CEE2BF77170FF7D900C636EC /* BTHeightSensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE2BF6F170FF7D800C636EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTHS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Albertino Padin";
+			};
+			buildConfigurationList = CEE2BF72170FF7D800C636EC /* Build configuration list for PBXProject "BTHeightSensor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEE2BF6E170FF7D800C636EC;
+			productRefGroup = CEE2BF78170FF7D900C636EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE2BF76170FF7D900C636EC /* BTHeightSensor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE2BF75170FF7D900C636EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2BF85170FF7D900C636EC /* InfoPlist.strings in Resources */,
+				CEE2BF8D170FF7D900C636EC /* Default.png in Resources */,
+				CEE2BF8F170FF7D900C636EC /* Default@2x.png in Resources */,
+				CEE2BF91170FF7D900C636EC /* Default-568h@2x.png in Resources */,
+				CEE2BF94170FF7D900C636EC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE2BF73170FF7D900C636EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2BF87170FF7D900C636EC /* main.m in Sources */,
+				CEE2BF8B170FF7D900C636EC /* BTHSAppDelegate.m in Sources */,
+				CEE2BF97170FF7D900C636EC /* BTHSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE2BF83170FF7D900C636EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE2BF84170FF7D900C636EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEE2BF92170FF7D900C636EC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE2BF93170FF7D900C636EC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE2BF98170FF7D900C636EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CEE2BF99170FF7D900C636EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE2BF9B170FF7D900C636EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTHeightSensor/BTHeightSensor-Prefix.pch";
+				INFOPLIST_FILE = "BTHeightSensor/BTHeightSensor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEE2BF9C170FF7D900C636EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTHeightSensor/BTHeightSensor-Prefix.pch";
+				INFOPLIST_FILE = "BTHeightSensor/BTHeightSensor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE2BF72170FF7D800C636EC /* Build configuration list for PBXProject "BTHeightSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE2BF98170FF7D900C636EC /* Debug */,
+				CEE2BF99170FF7D900C636EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE2BF9A170FF7D900C636EC /* Build configuration list for PBXNativeTarget "BTHeightSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE2BF9B170FF7D900C636EC /* Debug */,
+				CEE2BF9C170FF7D900C636EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE2BF6F170FF7D800C636EC /* Project object */;
+}
