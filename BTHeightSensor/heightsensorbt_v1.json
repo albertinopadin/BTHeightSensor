@@ -1,0 +1,201 @@
+{
+    "resources": {
+        "$schemaHash": {
+            "id": -6,
+            "align": 1,
+            "attributes": {"readonly": true},
+            "type": "A20:u1",
+            "access": "r",
+            "size": 20
+        },
+        "$eapProtocolLevel": {
+            "id": -3,
+            "align": 2,
+            "attributes": {"readonly": true},
+            "type": "u2",
+            "access": "r",
+            "size": 2
+        },
+        "distance": {
+            "id": 1,
+            "align": 1,
+            "attributes": {"readonly": true},
+            "type": "u1",
+            "access": "r",
+            "size": 1
+        },
+        "$mcmProtocolLevel": {
+            "id": -2,
+            "align": 2,
+            "attributes": {"readonly": true},
+            "type": "u2",
+            "access": "r",
+            "size": 2
+        },
+        "$mobileRssi": {
+            "id": -8,
+            "align": 1,
+            "attributes": {"readonly": true},
+            "type": "i1",
+            "access": "r",
+            "size": 1
+        },
+        "$mcmDisconnect": {
+            "id": -9,
+            "align": 1,
+            "attributes": {"writeonly": true},
+            "type": "u1",
+            "access": "w",
+            "size": 1
+        },
+        "$eapBuildDate": {
+            "id": -4,
+            "align": 1,
+            "attributes": {"readonly": true},
+            "type": "A8:u1",
+            "access": "r",
+            "size": 8
+        },
+        "$resourceCount": {
+            "id": -7,
+            "align": 1,
+            "attributes": {"readonly": true},
+            "type": "S:system@emmoco.com.System/ResourceCount",
+            "access": "r",
+            "size": 2
+        },
+        "led2": {
+            "id": 2,
+            "align": 1,
+            "attributes": {"writeonly": true},
+            "type": "E:@emmoco.com.HeightSensorBT_v1/LED2",
+            "access": "w",
+            "size": 1
+        },
+        "$fileIndexReset": {
+            "id": -5,
+            "align": 2,
+            "attributes": {"writeonly": true},
+            "type": "i2",
+            "access": "w",
+            "size": 2
+        }
+    },
+    "resourceNamesSys": [
+        "$eapBuildDate",
+        "$eapProtocolLevel",
+        "$fileIndexReset",
+        "$mcmDisconnect",
+        "$mcmProtocolLevel",
+        "$mobileRssi",
+        "$resourceCount",
+        "$schemaHash"
+    ],
+    "manifest": {
+        "protocolLevel": 12,
+        "hash": [
+            60,
+            148,
+            253,
+            19,
+            162,
+            35,
+            248,
+            82,
+            190,
+            199,
+            140,
+            77,
+            234,
+            221,
+            88,
+            139
+        ],
+        "toolVersion": "12.0.0.201211010336",
+        "name": "HeightSensorBT_v1",
+        "$$md5": "179f68ba75a4d01036c85d3911513749",
+        "build": [
+            240,
+            129,
+            127,
+            222,
+            61,
+            1,
+            0,
+            0
+        ],
+        "date": "2013-04-06T04:38:51-04:00",
+        "maxAlign": 2,
+        "maxSize": 20,
+        "version": "1.0.0"
+    },
+    "resourceNames": [
+        "distance",
+        "led2",
+        "$mcmProtocolLevel",
+        "$eapProtocolLevel",
+        "$eapBuildDate",
+        "$fileIndexReset",
+        "$schemaHash",
+        "$resourceCount",
+        "$mobileRssi",
+        "$mcmDisconnect"
+    ],
+    "attributes": {
+        "description": "Height Sensor",
+        "version": "1.0.0"
+    },
+    "types": {
+        "system@emmoco.com.System/ResourceCount": {
+            "align": 1,
+            "type": "S:system@emmoco.com.System/ResourceCount",
+            "size": 2,
+            "fields": [
+                {
+                    "pad": 0,
+                    "align": 1,
+                    "name": "app",
+                    "type": "u1",
+                    "size": 1
+                },
+                {
+                    "pad": 0,
+                    "align": 1,
+                    "name": "sys",
+                    "type": "u1",
+                    "size": 1
+                }
+            ]
+        },
+        "std:i2": {
+            "align": 2,
+            "size": 2
+        },
+        "std:i1": {
+            "align": 1,
+            "size": 1
+        },
+        "std:u1": {
+            "align": 1,
+            "size": 1
+        },
+        "@emmoco.com.HeightSensorBT_v1/LED2": {
+            "values": [
+                "LED2_ON",
+                "LED2_OFF"
+            ],
+            "align": 1,
+            "type": "E:@emmoco.com.HeightSensorBT_v1/LED2",
+            "size": 1
+        },
+        "std:u2": {
+            "align": 2,
+            "size": 2
+        }
+    },
+    "resourceNamesApp": [
+        "distance",
+        "led2"
+    ],
+    "imports": {"@emmoco.com.HeightSensorBT_v1": true}
+}

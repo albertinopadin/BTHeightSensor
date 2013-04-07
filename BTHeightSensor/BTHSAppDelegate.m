@@ -7,12 +7,20 @@
 //
 
 #import "BTHSAppDelegate.h"
+#import "EMFramework.h"
+
 
 @implementation BTHSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    EMBluetoothLowEnergyConnectionType *bluetoothType = [[EMBluetoothLowEnergyConnectionType alloc] init];
+    [[EMConnectionListManager sharedManager] addConnectionTypeToUpdates:bluetoothType];
+    [[EMConnectionListManager sharedManager] startUpdating];
+    
+    [[EMConnectionManager sharedManager] setBackgroundUpdatesEnabled:YES];
+    
     return YES;
 }
 							
@@ -36,6 +44,11 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    EMBluetoothLowEnergyConnectionType *bluetoothType = [[EMBluetoothLowEnergyConnectionType alloc] init];
+    [[EMConnectionListManager sharedManager] addConnectionTypeToUpdates:bluetoothType];
+    [[EMConnectionListManager sharedManager] startUpdating];
+    
+    [[EMConnectionManager sharedManager] setBackgroundUpdatesEnabled:YES];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

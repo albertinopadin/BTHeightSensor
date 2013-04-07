@@ -18,6 +18,36 @@
 		CEE2BF91170FF7D900C636EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BF90170FF7D900C636EC /* Default-568h@2x.png */; };
 		CEE2BF94170FF7D900C636EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BF92170FF7D900C636EC /* MainStoryboard.storyboard */; };
 		CEE2BF97170FF7D900C636EC /* BTHSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2BF96170FF7D900C636EC /* BTHSViewController.m */; };
+		CEE2BF9E1710211C00C636EC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2BF9D1710211C00C636EC /* CoreBluetooth.framework */; };
+		CEE2BFA01710215300C636EC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2BF9F1710215300C636EC /* libz.dylib */; };
+		CEE2BFB81710252A00C636EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2BFB71710252A00C636EC /* QuartzCore.framework */; };
+		CEE2BFC017104A6100C636EC /* libEMFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2BFBF17104A6100C636EC /* libEMFramework.a */; };
+		CEE2BFC217114A0A00C636EC /* heightsensorbt_v1.json in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFC117114A0900C636EC /* heightsensorbt_v1.json */; };
+		CEE2BFDB1711549B00C636EC /* button-default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFC41711549B00C636EC /* button-default.png */; };
+		CEE2BFDC1711549B00C636EC /* button-default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFC51711549B00C636EC /* button-default@2x.png */; };
+		CEE2BFDD1711549B00C636EC /* button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFC61711549B00C636EC /* button-pressed.png */; };
+		CEE2BFDE1711549B00C636EC /* button-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFC71711549B00C636EC /* button-pressed@2x.png */; };
+		CEE2BFDF1711549B00C636EC /* connected-light.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFC81711549B00C636EC /* connected-light.png */; };
+		CEE2BFE01711549B00C636EC /* connected-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFC91711549B00C636EC /* connected-light@2x.png */; };
+		CEE2BFE11711549B00C636EC /* connected.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFCA1711549B00C636EC /* connected.png */; };
+		CEE2BFE21711549B00C636EC /* connected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFCB1711549B00C636EC /* connected@2x.png */; };
+		CEE2BFE31711549B00C636EC /* connecting.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFCC1711549B00C636EC /* connecting.png */; };
+		CEE2BFE41711549B00C636EC /* connecting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFCD1711549B00C636EC /* connecting@2x.png */; };
+		CEE2BFE51711549B00C636EC /* disconnect-x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFCE1711549B00C636EC /* disconnect-x.png */; };
+		CEE2BFE61711549B00C636EC /* disconnect-x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFCF1711549B00C636EC /* disconnect-x@2x.png */; };
+		CEE2BFE71711549B00C636EC /* disconnected-light.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFD01711549B00C636EC /* disconnected-light.png */; };
+		CEE2BFE81711549B00C636EC /* disconnected-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFD11711549B00C636EC /* disconnected-light@2x.png */; };
+		CEE2BFE91711549B00C636EC /* disconnected.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFD21711549B00C636EC /* disconnected.png */; };
+		CEE2BFEA1711549B00C636EC /* disconnected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFD31711549B00C636EC /* disconnected@2x.png */; };
+		CEE2BFEB1711549B00C636EC /* glow.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFD41711549B00C636EC /* glow.png */; };
+		CEE2BFEC1711549B00C636EC /* glow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFD51711549B00C636EC /* glow@2x.png */; };
+		CEE2BFED1711549B00C636EC /* popover-background.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFD61711549B00C636EC /* popover-background.png */; };
+		CEE2BFEE1711549B00C636EC /* popover-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFD71711549B00C636EC /* popover-background@2x.png */; };
+		CEE2BFEF1711549B00C636EC /* red-light.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFD81711549B00C636EC /* red-light.png */; };
+		CEE2BFF01711549B00C636EC /* red-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFD91711549B00C636EC /* red-light@2x.png */; };
+		CEE2BFF11711549B00C636EC /* system.json in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFDA1711549B00C636EC /* system.json */; };
+		CEE2BFF517115E9300C636EC /* heightSensorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2BFF417115E9300C636EC /* heightSensorIcon.png */; };
+		CEE2BFF81711839000C636EC /* CLV.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2BFF71711838F00C636EC /* CLV.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +67,56 @@
 		CEE2BF93170FF7D900C636EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CEE2BF95170FF7D900C636EC /* BTHSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTHSViewController.h; sourceTree = "<group>"; };
 		CEE2BF96170FF7D900C636EC /* BTHSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTHSViewController.m; sourceTree = "<group>"; };
+		CEE2BF9D1710211C00C636EC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CEE2BF9F1710215300C636EC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CEE2BFA41710229700C636EC /* EMBluetoothLowEnergyConnectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMBluetoothLowEnergyConnectionType.h; sourceTree = "<group>"; };
+		CEE2BFA51710229700C636EC /* EMChecksum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChecksum.h; sourceTree = "<group>"; };
+		CEE2BFA61710229700C636EC /* EMConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConnection.h; sourceTree = "<group>"; };
+		CEE2BFA71710229700C636EC /* EMConnectionIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConnectionIndicator.h; sourceTree = "<group>"; };
+		CEE2BFA81710229700C636EC /* EMConnectionListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConnectionListManager.h; sourceTree = "<group>"; };
+		CEE2BFA91710229700C636EC /* EMConnectionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConnectionListView.h; sourceTree = "<group>"; };
+		CEE2BFAA1710229700C636EC /* EMConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConnectionManager.h; sourceTree = "<group>"; };
+		CEE2BFAB1710229700C636EC /* EMConnectionPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConnectionPickerDelegate.h; sourceTree = "<group>"; };
+		CEE2BFAC1710229700C636EC /* EMConnectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConnectionType.h; sourceTree = "<group>"; };
+		CEE2BFAD1710229700C636EC /* EMDeviceBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDeviceBasicDescription.h; sourceTree = "<group>"; };
+		CEE2BFAE1710229700C636EC /* EMFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMFramework.h; sourceTree = "<group>"; };
+		CEE2BFAF1710229700C636EC /* EMMockConnectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMockConnectionType.h; sourceTree = "<group>"; };
+		CEE2BFB01710229700C636EC /* EMMockDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMockDevice.h; sourceTree = "<group>"; };
+		CEE2BFB11710229700C636EC /* EMResourceValue+CocoaAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMResourceValue+CocoaAdditions.h"; sourceTree = "<group>"; };
+		CEE2BFB21710229700C636EC /* EMResourceValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMResourceValue.h; sourceTree = "<group>"; };
+		CEE2BFB31710229700C636EC /* EMSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSchema.h; sourceTree = "<group>"; };
+		CEE2BFB41710229700C636EC /* EMSerialPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSerialPacket.h; sourceTree = "<group>"; };
+		CEE2BFB51710229700C636EC /* EMTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTypes.h; sourceTree = "<group>"; };
+		CEE2BFB61710229700C636EC /* NSTimer+EMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+EMAdditions.h"; sourceTree = "<group>"; };
+		CEE2BFB71710252A00C636EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEE2BFBF17104A6100C636EC /* libEMFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEMFramework.a; path = ../../EmmocoMobileFramework/Framework/libEMFramework.a; sourceTree = "<group>"; };
+		CEE2BFC117114A0900C636EC /* heightsensorbt_v1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heightsensorbt_v1.json; sourceTree = "<group>"; };
+		CEE2BFC41711549B00C636EC /* button-default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-default.png"; sourceTree = "<group>"; };
+		CEE2BFC51711549B00C636EC /* button-default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-default@2x.png"; sourceTree = "<group>"; };
+		CEE2BFC61711549B00C636EC /* button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed.png"; sourceTree = "<group>"; };
+		CEE2BFC71711549B00C636EC /* button-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed@2x.png"; sourceTree = "<group>"; };
+		CEE2BFC81711549B00C636EC /* connected-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connected-light.png"; sourceTree = "<group>"; };
+		CEE2BFC91711549B00C636EC /* connected-light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connected-light@2x.png"; sourceTree = "<group>"; };
+		CEE2BFCA1711549B00C636EC /* connected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connected.png; sourceTree = "<group>"; };
+		CEE2BFCB1711549B00C636EC /* connected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connected@2x.png"; sourceTree = "<group>"; };
+		CEE2BFCC1711549B00C636EC /* connecting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connecting.png; sourceTree = "<group>"; };
+		CEE2BFCD1711549B00C636EC /* connecting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connecting@2x.png"; sourceTree = "<group>"; };
+		CEE2BFCE1711549B00C636EC /* disconnect-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disconnect-x.png"; sourceTree = "<group>"; };
+		CEE2BFCF1711549B00C636EC /* disconnect-x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disconnect-x@2x.png"; sourceTree = "<group>"; };
+		CEE2BFD01711549B00C636EC /* disconnected-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disconnected-light.png"; sourceTree = "<group>"; };
+		CEE2BFD11711549B00C636EC /* disconnected-light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disconnected-light@2x.png"; sourceTree = "<group>"; };
+		CEE2BFD21711549B00C636EC /* disconnected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disconnected.png; sourceTree = "<group>"; };
+		CEE2BFD31711549B00C636EC /* disconnected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disconnected@2x.png"; sourceTree = "<group>"; };
+		CEE2BFD41711549B00C636EC /* glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glow.png; sourceTree = "<group>"; };
+		CEE2BFD51711549B00C636EC /* glow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow@2x.png"; sourceTree = "<group>"; };
+		CEE2BFD61711549B00C636EC /* popover-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-background.png"; sourceTree = "<group>"; };
+		CEE2BFD71711549B00C636EC /* popover-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-background@2x.png"; sourceTree = "<group>"; };
+		CEE2BFD81711549B00C636EC /* red-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-light.png"; sourceTree = "<group>"; };
+		CEE2BFD91711549B00C636EC /* red-light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-light@2x.png"; sourceTree = "<group>"; };
+		CEE2BFDA1711549B00C636EC /* system.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = system.json; sourceTree = "<group>"; };
+		CEE2BFF417115E9300C636EC /* heightSensorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heightSensorIcon.png; sourceTree = "<group>"; };
+		CEE2BFF61711838E00C636EC /* CLV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLV.h; sourceTree = "<group>"; };
+		CEE2BFF71711838F00C636EC /* CLV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLV.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +124,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE2BFC017104A6100C636EC /* libEMFramework.a in Frameworks */,
+				CEE2BFB81710252A00C636EC /* QuartzCore.framework in Frameworks */,
+				CEE2BFA01710215300C636EC /* libz.dylib in Frameworks */,
+				CEE2BF9E1710211C00C636EC /* CoreBluetooth.framework in Frameworks */,
 				CEE2BF7B170FF7D900C636EC /* UIKit.framework in Frameworks */,
 				CEE2BF7D170FF7D900C636EC /* Foundation.framework in Frameworks */,
 				CEE2BF7F170FF7D900C636EC /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +140,7 @@
 		CEE2BF6E170FF7D800C636EC = {
 			isa = PBXGroup;
 			children = (
+				CEE2BFF417115E9300C636EC /* heightSensorIcon.png */,
 				CEE2BF80170FF7D900C636EC /* BTHeightSensor */,
 				CEE2BF79170FF7D900C636EC /* Frameworks */,
 				CEE2BF78170FF7D900C636EC /* Products */,
@@ -73,6 +158,10 @@
 		CEE2BF79170FF7D900C636EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEE2BFBF17104A6100C636EC /* libEMFramework.a */,
+				CEE2BF9F1710215300C636EC /* libz.dylib */,
+				CEE2BFB71710252A00C636EC /* QuartzCore.framework */,
+				CEE2BF9D1710211C00C636EC /* CoreBluetooth.framework */,
 				CEE2BF7A170FF7D900C636EC /* UIKit.framework */,
 				CEE2BF7C170FF7D900C636EC /* Foundation.framework */,
 				CEE2BF7E170FF7D900C636EC /* CoreGraphics.framework */,
@@ -83,12 +172,17 @@
 		CEE2BF80170FF7D900C636EC /* BTHeightSensor */ = {
 			isa = PBXGroup;
 			children = (
+				CEE2BFC31711549A00C636EC /* Assets */,
+				CEE2BFC117114A0900C636EC /* heightsensorbt_v1.json */,
+				CEE2BFA31710229700C636EC /* Headers */,
 				CEE2BF89170FF7D900C636EC /* BTHSAppDelegate.h */,
 				CEE2BF8A170FF7D900C636EC /* BTHSAppDelegate.m */,
 				CEE2BF92170FF7D900C636EC /* MainStoryboard.storyboard */,
 				CEE2BF95170FF7D900C636EC /* BTHSViewController.h */,
 				CEE2BF96170FF7D900C636EC /* BTHSViewController.m */,
 				CEE2BF81170FF7D900C636EC /* Supporting Files */,
+				CEE2BFF61711838E00C636EC /* CLV.h */,
+				CEE2BFF71711838F00C636EC /* CLV.m */,
 			);
 			path = BTHeightSensor;
 			sourceTree = "<group>";
@@ -105,6 +199,62 @@
 				CEE2BF90170FF7D900C636EC /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE2BFA31710229700C636EC /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2BFA41710229700C636EC /* EMBluetoothLowEnergyConnectionType.h */,
+				CEE2BFA51710229700C636EC /* EMChecksum.h */,
+				CEE2BFA61710229700C636EC /* EMConnection.h */,
+				CEE2BFA71710229700C636EC /* EMConnectionIndicator.h */,
+				CEE2BFA81710229700C636EC /* EMConnectionListManager.h */,
+				CEE2BFA91710229700C636EC /* EMConnectionListView.h */,
+				CEE2BFAA1710229700C636EC /* EMConnectionManager.h */,
+				CEE2BFAB1710229700C636EC /* EMConnectionPickerDelegate.h */,
+				CEE2BFAC1710229700C636EC /* EMConnectionType.h */,
+				CEE2BFAD1710229700C636EC /* EMDeviceBasicDescription.h */,
+				CEE2BFAE1710229700C636EC /* EMFramework.h */,
+				CEE2BFAF1710229700C636EC /* EMMockConnectionType.h */,
+				CEE2BFB01710229700C636EC /* EMMockDevice.h */,
+				CEE2BFB11710229700C636EC /* EMResourceValue+CocoaAdditions.h */,
+				CEE2BFB21710229700C636EC /* EMResourceValue.h */,
+				CEE2BFB31710229700C636EC /* EMSchema.h */,
+				CEE2BFB41710229700C636EC /* EMSerialPacket.h */,
+				CEE2BFB51710229700C636EC /* EMTypes.h */,
+				CEE2BFB61710229700C636EC /* NSTimer+EMAdditions.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		CEE2BFC31711549A00C636EC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2BFC41711549B00C636EC /* button-default.png */,
+				CEE2BFC51711549B00C636EC /* button-default@2x.png */,
+				CEE2BFC61711549B00C636EC /* button-pressed.png */,
+				CEE2BFC71711549B00C636EC /* button-pressed@2x.png */,
+				CEE2BFC81711549B00C636EC /* connected-light.png */,
+				CEE2BFC91711549B00C636EC /* connected-light@2x.png */,
+				CEE2BFCA1711549B00C636EC /* connected.png */,
+				CEE2BFCB1711549B00C636EC /* connected@2x.png */,
+				CEE2BFCC1711549B00C636EC /* connecting.png */,
+				CEE2BFCD1711549B00C636EC /* connecting@2x.png */,
+				CEE2BFCE1711549B00C636EC /* disconnect-x.png */,
+				CEE2BFCF1711549B00C636EC /* disconnect-x@2x.png */,
+				CEE2BFD01711549B00C636EC /* disconnected-light.png */,
+				CEE2BFD11711549B00C636EC /* disconnected-light@2x.png */,
+				CEE2BFD21711549B00C636EC /* disconnected.png */,
+				CEE2BFD31711549B00C636EC /* disconnected@2x.png */,
+				CEE2BFD41711549B00C636EC /* glow.png */,
+				CEE2BFD51711549B00C636EC /* glow@2x.png */,
+				CEE2BFD61711549B00C636EC /* popover-background.png */,
+				CEE2BFD71711549B00C636EC /* popover-background@2x.png */,
+				CEE2BFD81711549B00C636EC /* red-light.png */,
+				CEE2BFD91711549B00C636EC /* red-light@2x.png */,
+				CEE2BFDA1711549B00C636EC /* system.json */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +314,31 @@
 				CEE2BF8F170FF7D900C636EC /* Default@2x.png in Resources */,
 				CEE2BF91170FF7D900C636EC /* Default-568h@2x.png in Resources */,
 				CEE2BF94170FF7D900C636EC /* MainStoryboard.storyboard in Resources */,
+				CEE2BFC217114A0A00C636EC /* heightsensorbt_v1.json in Resources */,
+				CEE2BFDB1711549B00C636EC /* button-default.png in Resources */,
+				CEE2BFDC1711549B00C636EC /* button-default@2x.png in Resources */,
+				CEE2BFDD1711549B00C636EC /* button-pressed.png in Resources */,
+				CEE2BFDE1711549B00C636EC /* button-pressed@2x.png in Resources */,
+				CEE2BFDF1711549B00C636EC /* connected-light.png in Resources */,
+				CEE2BFE01711549B00C636EC /* connected-light@2x.png in Resources */,
+				CEE2BFE11711549B00C636EC /* connected.png in Resources */,
+				CEE2BFE21711549B00C636EC /* connected@2x.png in Resources */,
+				CEE2BFE31711549B00C636EC /* connecting.png in Resources */,
+				CEE2BFE41711549B00C636EC /* connecting@2x.png in Resources */,
+				CEE2BFE51711549B00C636EC /* disconnect-x.png in Resources */,
+				CEE2BFE61711549B00C636EC /* disconnect-x@2x.png in Resources */,
+				CEE2BFE71711549B00C636EC /* disconnected-light.png in Resources */,
+				CEE2BFE81711549B00C636EC /* disconnected-light@2x.png in Resources */,
+				CEE2BFE91711549B00C636EC /* disconnected.png in Resources */,
+				CEE2BFEA1711549B00C636EC /* disconnected@2x.png in Resources */,
+				CEE2BFEB1711549B00C636EC /* glow.png in Resources */,
+				CEE2BFEC1711549B00C636EC /* glow@2x.png in Resources */,
+				CEE2BFED1711549B00C636EC /* popover-background.png in Resources */,
+				CEE2BFEE1711549B00C636EC /* popover-background@2x.png in Resources */,
+				CEE2BFEF1711549B00C636EC /* red-light.png in Resources */,
+				CEE2BFF01711549B00C636EC /* red-light@2x.png in Resources */,
+				CEE2BFF11711549B00C636EC /* system.json in Resources */,
+				CEE2BFF517115E9300C636EC /* heightSensorIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +352,7 @@
 				CEE2BF87170FF7D900C636EC /* main.m in Sources */,
 				CEE2BF8B170FF7D900C636EC /* BTHSAppDelegate.m in Sources */,
 				CEE2BF97170FF7D900C636EC /* BTHSViewController.m in Sources */,
+				CEE2BFF81711839000C636EC /* CLV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +405,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -254,6 +431,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -266,6 +444,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTHeightSensor/BTHeightSensor-Prefix.pch";
 				INFOPLIST_FILE = "BTHeightSensor/BTHeightSensor-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../EmmocoMobileFramework/Framework\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -277,6 +460,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTHeightSensor/BTHeightSensor-Prefix.pch";
 				INFOPLIST_FILE = "BTHeightSensor/BTHeightSensor-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../EmmocoMobileFramework/Framework\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
